@@ -1,0 +1,44 @@
+@import "color.scss";
+  .form{
+    float:left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+
+    .wpcf7{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 320px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        background: #242425;
+        padding: 16px;
+        border-radius: 8px;
+        position: relative;
+        z-index: 100;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        label{
+            color:white;
+        }
+    }
+}
+.map{
+    float : right;
+    height: 100%;
+    margin:0px;
+    width: 50%;
+    .gmap{
+        height: 100%;
+        width: 100%;
+    }
+}
